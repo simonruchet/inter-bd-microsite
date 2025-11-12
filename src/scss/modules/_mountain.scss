@@ -1,0 +1,31 @@
+.mountain-in-container {
+  position: relative;
+  overflow: hidden;
+}
+.mountain-in {
+  //   height: 832px;
+  //   width: 1280px;
+  height: 100vh;
+  overflow: hidden;
+}
+.mountain-in-case {
+  background-image: url("../img/mountain-in-case.webp");
+  height: 100vh; //   margin-top: 25%;
+  //   margin-left: 50%;
+  //   top: 50%;
+  //   left: 50%;
+  //   transform: translate(-50%, -50%);
+}
+.mountain-in-container img {
+  position: absolute;
+  width: 100%;
+}
+.mountain-in-container img.familly {
+  position: relative;
+}
+.mountain-in-container img.top {
+  top: 0;
+}
+.mountain-in-container img.bottom {
+  top: 0;
+}

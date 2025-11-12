@@ -1,0 +1,52 @@
+.flash img {
+  width: 100%;
+  display: block;
+}
+
+.flash-container {
+  position: relative;
+  width: 100%;
+}
+
+.flash-with {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 50%;
+  animation: clignotements 2s infinite;
+}
+
+@keyframes clignotements {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0.1;
+  }
+}
+
+.flash {
+  position: relative;
+}
+
+.flash button {
+  position: absolute;
+  top: 56%; /* Ajuste la position selon ton besoin */
+  left: 70%;
+  z-index: 10; /* Plus haut que les images */
+  background: transparent; /* pour éviter de masquer quoi que ce soit */
+  border: none;
+  cursor: pointer;
+}
+
+.flash-button {
+  width: 57px;
+  height: 57px;
+  stroke-width: 6px;
+  stroke: #833d74;
+  background-color: white; /* ou transparent selon ton design */
+  border-radius: 50%;
+}
