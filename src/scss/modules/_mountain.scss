@@ -9,7 +9,9 @@
   overflow: hidden;
 }
 .mountain-in-case {
-  background-image: url("../img/mountain-in-case.webp");
+  background-image: url("/src/img/mountain-in-case.webp");
+  background-size: 100%;
+  background-repeat: no-repeat;
   height: 100vh; //   margin-top: 25%;
   //   margin-left: 50%;
   //   top: 50%;

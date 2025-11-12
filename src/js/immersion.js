@@ -3,18 +3,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.to(".screens", {
-  scrollTrigger: {
-    trigger: ".scroll-horizontal",
-    start: "top top",
-    end: "+=1400%",
-    pin: true,
-    scrub: true,
-    markers: true,
-  },
-  x: "-92.8571%",
-  ease: "sine.inOut",
-});
+// Animation pour la montagne
 
 // gsap
 //   .timeline({
@@ -37,3 +26,18 @@ gsap.to(".screens", {
 //     },
 //     0
 //   );
+
+// Animation pour le scroll horizontal
+
+gsap.to(".screens", {
+  scrollTrigger: {
+    trigger: ".scroll-horizontal",
+    start: "top top",
+    end: "+=1400%",
+    pin: true,
+    scrub: true,
+    markers: true,
+  },
+  x: "-92.8571%",
+  ease: "sine.inOut",
+});
