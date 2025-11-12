@@ -38,6 +38,35 @@
   top: 28%;
 }
 
+.screen-3 {
+  position: relative;
+}
+
+.screen-3-frame {
+  position: relative;
+  width: 60%;
+  aspect-ratio: 139/103;
+  border: 9px solid black; /* ton "stroke" */
+  overflow: hidden; /* masque tout ce qui dépasse */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.screen-3-background,
+.screen-3-sabre,
+.screen-3-trees {
+  position: absolute;
+  margin: auto;
+  width: 100%;
+}
+.screen-3-background img,
+.screen-3-sabre img,
+.screen-3-trees img {
+  width: 100%;
+}
+
 .screen-4-img img {
   width: 62%;
   margin: auto;
