@@ -3,6 +3,30 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
+//  mountain
+
+gsap
+  .timeline({
+    scrollTrigger: {
+      trigger: ".mountain",
+      start: "top top",
+      end: "+=1000", // longueur du scroll
+      scrub: true,
+      pin: true, // bloque la section pendant l'anim
+    },
+  })
+  .to(".top", { y: "-100%", ease: "none" }, 0)
+  .to(".bottom", { y: "100%", ease: "none" }, 0)
+  .to(
+    ".mountain-in-case",
+    {
+      width: 793,
+      height: 557,
+      ease: "none",
+    },
+    0
+  );
+
 //  scroll horizontal
 
 gsap
@@ -25,12 +49,12 @@ gsap
 
   // parallax
   .to(".screen-3-background", {
-    x: "-8vw",
+    x: "-3vw",
     ease: "quad.inOut",
   })
 
   .to(".screen-3-trees", {
-    x: "-10vw",
+    x: "-8vw",
     ease: "quad.inOut",
   })
 
