@@ -1,3 +1,7 @@
+.buy {
+  height: 100vh;
+}
+
 .buy-img-sabre img {
   width: 100%;
 }
@@ -10,8 +14,65 @@
 .buy-img-sabre-content {
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 40px;
+  height: 100%;
+  position: relative;
 }
 
 .buy-content {
   width: 32vw;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.buy-content h1 {
+  font-size: 80px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.buy-content h2 {
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.buy-content p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 131.586%;
+}
+
+.buy-content button {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 41px;
+  border: 0.7px solid #000;
+  background: #fff;
+  width: fit-content;
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.buy-trees {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  img {
+    height: 38vh;
+  }
+}
+
+.buy-bird {
+  position: absolute;
+  top: 0;
+  left: 0;
+  img {
+    height: 22vh;
+  }
 }
