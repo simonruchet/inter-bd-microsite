@@ -32,7 +32,6 @@
   justify-content: center;
   align-items: flex-start;
   gap: 24px;
-  //   left: 81px;
   left: 6%;
   right: 6%;
   top: 28%;
@@ -46,8 +45,8 @@
   position: relative;
   width: 60%;
   aspect-ratio: 139/103;
-  border: 9px solid black; /* ton "stroke" */
-  overflow: hidden; /* masque tout ce qui dépasse */
+  border: 9px solid black;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
