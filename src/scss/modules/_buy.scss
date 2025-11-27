@@ -59,6 +59,16 @@
   font-weight: 600;
 }
 
+.buy-link {
+  text-decoration: none;
+}
+
+.buy-content button:hover {
+  background-color: #000;
+  color: rgb(255, 255, 198);
+  transition: 1s;
+}
+
 .buy-trees {
   position: absolute;
   right: 0;

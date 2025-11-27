@@ -3,8 +3,6 @@
   overflow: hidden;
 }
 .mountain-in {
-  //   height: 832px;
-  //   width: 1280px;
   height: 100vh;
   overflow: hidden;
 }
@@ -12,12 +10,9 @@
   background-image: url("/src/img/mountain-in-case.webp");
   background-size: 100%;
   background-repeat: no-repeat;
+  background-position: center center;
   margin: auto;
-  height: 100vh; //   margin-top: 25%;
-  //   margin-left: 50%;
-  //   top: 50%;
-  //   left: 50%;
-  //   transform: translate(-50%, -50%);
+  height: 100vh;
 }
 .mountain-in-container img {
   position: absolute;

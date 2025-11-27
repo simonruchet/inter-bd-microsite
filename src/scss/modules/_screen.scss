@@ -8,6 +8,16 @@
 
 .screen-1-arrow {
   position: absolute;
+  animation: arrowpulse infinite 1.5s alternate ease-in-out;
+}
+
+@keyframes arrowpulse {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 1.3;
+  }
 }
 
 .screen-2-ornament img {
